@@ -14,3 +14,4 @@ submitBtn.addEventListener("click", async () => {
   const input = userInput.value.trim();
   userInput.value = "";
   
+  
