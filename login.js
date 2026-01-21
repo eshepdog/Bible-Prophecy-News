@@ -23,7 +23,7 @@ submitBtn.addEventListener("click", async () => {
       print("Please input your password:");
       currentStep = "askPassword";
     } else {
-      print("Incorrect username. Please refresh page and try again");
+      print("Incorrect username. Please refresh page and try again.");
       currentStep = "end"; 
     }
     }
@@ -45,7 +45,7 @@ submitBtn.addEventListener("click", async () => {
         print("Session finished. Refresh page to try again.");
     }
 });
-print("Log-in Page \n\nWelcome! Please enter your name:");
+print("Log-in Page \n\nWelcome! Please enter your username:");
 
 
 
