@@ -1,16 +1,85 @@
+
 <!DOCTYPE html>
 <html>
 <head>
   <title>My Personal Webpage</title>
 <style>
+body {
+	background-color: powderblue;
+	font-family: Arial;
+	color: black;
+	text-align: center;
+      }
+div.header {
+	background-color: tomato;
+	color: white;
+	text-align: center;
+	padding: 20px;
+
+h1 {
+	color: navy;
+	font-size: 36px;
+      }
+p {
+	font-size: 18px;
+      }
+.grid-container {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	gap: 10px;
+	background-color: #f8f8f8; /Pale gray, Bright Snow/
+	padding: 10px;
+}
+.grid-item {
+	background-color: #4CAF50; /Apple Green/
+	color: white;
+	padding: 20px;
+	text-align: center;
+.button-transition {
+	background-color: navy;
+	color: white;
+	padding: 10px 20px;
+	transition: background-color 0.3s ease;
+	border: none;
+	cursor: pointer;
+}
+
 </style>
 </head>
 <body>
 <div class = "header">
   <h1>Welcome to my Personal Webpage</h1>  
   <p>This is a simple example of an HTML, JavaScript, and CSS personel webpage.</p>
+  <pre style = "font-sized: 24px";>
+  Name:John Doe
+  Age: 25
+  Location: Kansas City
+  </pre>
+<br>
+<div class="grid-container">
+<div class="grid-item"><a href = "hyperlink" style = "color:black"; target = "_blank";>
+<button class = "button-transition">Button Name</button></a></div>
+
+<div class = "grid-item"></div>
+<div class = "grid-item"><a href = "hyperlink" style = "color:black"; target = "_blank";>
+<button class = "button-transition">Button Name</button></a></div>
+
+<div class = "grid-item"></div>
+<div class = "grid-item"><a href = "Adventure Game" style = "color:black"; target = "_blank";>
+<button class = "button-transition">Adventure Game
+Webpage</button></a></div>
+<div class = "grid-item"></div>
+	<p>Check out my favorite website:
+<a href="https://www.history.com/shows/swamp-people/"target="_blank">Swamp People</a>
+</p>
+<a href="link to a personal webpage"target="_blank">
+	<img src="https://github.com/eshepdog/Bible-Prophecy-News/commit/0d88959823dad43a9c807627a67d77b992082ef4" alt="Sample Image"></a>
+
+
+
 </div>
 </body>
 </html>
+
 
   
