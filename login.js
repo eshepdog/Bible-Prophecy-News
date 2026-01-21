@@ -24,5 +24,30 @@ submitBtn.addEventListener("click", async () => {
       currentStep = "askPassword";
     } else {
       print("Incorrect username. Please refresh page and try again");
+      currentStep = "end"; 
+    }
+    }
+} else if (currentStep === "askPassword") { 
+    const password1 = input;
+    if (username === "student" && password1 === "123456") {
+      print("You are logged in as a student.");
+      document.getElementByld("main-link").style.display = "block";
+    }else if (username === "teacher" && password1 === "qwerty") {
+      print("You are logged in as a teacher.");
+      document.getElementByld("main-link").style.display = "block";
+    } else {
+      print("Incorrect password.");
+      await sleep(1500);
+      print("Refresh page and try again.");
+    }
+    currentStep = "end";
+    } else if (currentStep === "end") {
+        print("Session finished. Refresh page to try again.");
+    }
+});
+print("Log-in Page \n\nWelcome! Please enter your name:");
+
+
+
   
   
