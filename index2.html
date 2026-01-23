@@ -1,4 +1,5 @@
 
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -35,6 +36,7 @@ p {
 	color: white;
 	padding: 20px;
 	text-align: center;
+}
 .button-transition {
 	background-color: navy;
 	color: white;
@@ -60,8 +62,63 @@ img {
 	background-color: steelblue;
 	color: white;	
 	padding: 20px;
-	width: 30%;
+	width: 29%;
 	text-align: center;
+}
+
+.table-style1 {
+	width: 80%;
+	margin: 20px auto;
+	border: 2px solid navy;
+}
+.table-style1 th, .table-style1 td {
+	border: 1px solid navy;
+	padding: 10px;
+	text-align: center;
+}
+.table-style1 th {
+	background-color: lightblue;
+}
+.table-style2 {
+	width: 60%;
+	margin: 20px auto;
+	border-collapse: collapse;
+	border: 2px solid darkgreen;
+}
+.table-style2 th, .table-style2 td {
+	border: 1px solid darkgreen;
+	padding: 10px;
+	text-align: center;
+}
+.table-style2 th {
+	background-color: lightgreen;
+}
+div.mycontainer {
+	width:66%;
+	overflow:auto;
+}
+div.mycontainer div {
+	width:50%;
+	float:left;
+}
+.list-style1 {
+	list-style-type: square;
+	color: darkblue;
+	text-align: left;
+	margin:20px;
+}
+.list-style2 {
+	list-style-type: circle;
+	color: darkgreen;
+	text-align: left;
+	margin:20px;
+}
+.video {
+	width: 50%;
+	margin: 10px auto;
+	text-align: center;
+	border:3px solid green;
+	background-color: DarkTurquoise;
 }
 
 
@@ -82,26 +139,109 @@ img {
 <button class = "button-transition">Button Name</button></a></div>
 
 <div class = "grid-item"></div>
-<div class = "grid-item"><a href = "hyperlink" style = "color:black"; target = "_blank";>
-<button class = "button-transition">Button Name</button></a></div>
+<div class = "grid-item"><a href = "game.js" style = "color:black"; target = "_blank";>
+<button class = "button-transition">jsAdventureGame</button></a></div>
 
 <div class = "grid-item"></div>
-<div class = "grid-item"><a href = "Adventure Game" style = "color:black"; target = "_blank";>
+<div class = "grid-item"><a href = "jsadventure.html" style = "color:black"; target = "_blank";>
 <button class = "button-transition">Adventure Game
 Webpage</button></a></div>
 <div class = "grid-item"></div>
-	<p>Check out my favorite website:
-<a href="https://www.history.com/shows/swamp-people/"target="_blank">Swamp People</a>
-</p>
-<a href="https://github.com/eshepdog/Bible-Prophecy-News/blob/main/swamp%20people%20pic.jpg?raw=true"target="_blank">
-	<img src= alt="Sample Image"></a>
-<p>Email me at the following address: <a href="mailto:czavos@mersgoodwill.org"
-target="_blank">czavos@mokangoodwill.org</a></p>
-
-
-
-
 </div>
+
+<div class="flex-container">
+<div class="flex-item">
+<p>Check out my favorite website:
+<a href="https://www.history.com/shows/swamp-people/"target="_blank">Swamp People</a>
+</p></div>
+<div class="flex-item">
+<a href=""https://classroom.google.com/w/NjYwMjA5OTExNjc5/t/alltarget="_blank">
+	<img src= "https://github.com/eshepdog/Bible-Prophecy-News/blob/main/swamp%20people%20pic.jpg?raw=true" alt="alligator" title = "Swamp Alligator"></a></div>
+
+<div class="flex-item"><p>Email me at the following address: <a href="mailto:shepherd1326013@gmail.com.org"
+target="_blank">shepherd1326013@gmail.com.org</a></p></div>
+</div>
+<br><br>
+<hr>
+<br><br>
+
+<div class="grid-container">
+<div class = "grid-item">
+<h2>My Hobbies</h2>
+<table class="table-style1">
+<tr>
+<th>Hiking</th>
+<th>4 hours/Week</th>
+</tr>
+<tr>
+<td>Reading</td>
+<td>3 hours</td>
+</tr>
+<tr>
+<td>Watching TV</td>
+<td>4 hours</td>
+</tr>
+</table>
+</div>
+<div class="grid-item"></div>
+
+<div class="grid-item">
+<h2>My Favorite Movies</h2>
+<table class="table-style2">
+<tr>
+<th>Hunger Games</th>
+<th>2012</th>
+</tr>
+<tr>
+<td>O Brother, Where Art Thou</td>
+<td>2000</td>
+</tr>
+<tr>
+<td>Bullet Train</td>
+<td>2022</td>
+</tr>
+</table>
+</div>
+</div>
+
+<div class = "mycontainer">
+<div style = "background-color: LightCyan";>
+<h2>My Favorite Foods</h2>
+<ul class="list-style1">
+<li>Pizza</li>
+<li>Filet Mignon</li>
+<li>Big Mac</li>
+</ul>
+</div>
+
+<div style = "background-color: Aquamarine";>
+<h2>My Favorite Drinks</h2>
+<ul class="list-style2">
+<li>Pepsi</li>
+<li>Lemonade</li>
+<li>Wild Cherry Pepsi</li>
+</ul>
+</div>
+</div>
+
+<br><br><br>
+<div class = "video">
+<h2>My Favorite Video</h2>
+<video width="480" height="360" controls>
+<source src="https://github.com/eshepdog/Bible-Prophecy-News/blob/main/Download%20(1).mp4?raw=true">
+Your browser does not support the video tag.
+</video>
+</div>
+
+<h2>Embedded Website</h2>
+
+<iframe src="https://quirkycort.github.io/gears/public/"width="700"
+height="466" style="border:none;"></iframe>
+
+
+
+
+
 </body>
 </html>
 
